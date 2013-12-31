@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace XamlFormatter
 {
-    public class XamlFormatter
+    public class XamlXmlFormatter
     {
         // Bug KeyBindings Element - should not change Key to x:Key
         private readonly List<string> keyedElements = new List<string>();
@@ -23,9 +23,9 @@ namespace XamlFormatter
         private int elementCount;
 
         /// <summary>
-        ///     Initializes a new instance of the <see cref="XamlFormatter" /> class.
+        ///     Initializes a new instance of the <see cref="XamlXmlFormatter" /> class.
         /// </summary>
-        public XamlFormatter()
+        public XamlXmlFormatter()
         {
             // Initialisation Stuff bere...
             IndentSize = 4;

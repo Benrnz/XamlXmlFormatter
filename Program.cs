@@ -11,7 +11,7 @@ namespace XamlFormatter
         {
             Console.WriteLine("--- Rees.biz XAML/XML Formatter ---");
 
-            var formatter = new XamlFormatter();
+            var formatter = new XamlXmlFormatter();
             int count = 0, total = 0, exceptions = 0, readonlyExceptions = 0;
 
             foreach (string item in args)

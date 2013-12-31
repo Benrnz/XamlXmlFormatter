@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlFormatter", "XamlFormatter.csproj", "{36C7BCE7-F5A9-4BB4-824F-53C3C28991B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlXmlFormatter", "XamlXmlFormatter.csproj", "{36C7BCE7-F5A9-4BB4-824F-53C3C28991B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

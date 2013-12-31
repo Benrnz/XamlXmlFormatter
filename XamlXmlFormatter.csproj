@@ -64,7 +64,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlAttributeComparer.cs" />
-    <Compile Include="XamlFormatter.cs" />
+    <Compile Include="XamlXmlFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
