@@ -7,6 +7,10 @@ namespace XamlFormatter
 {
     public class Program
     {
+        /// <summary>
+        /// Main entry point for command line execution.
+        /// </summary>
+        /// <param name="args">Command line arguments.  Accepts only a list of files or folders space separated.</param>
         public static void Main(string[] args)
         {
             Console.WriteLine("--- Rees.biz XAML/XML Formatter ---");
