@@ -133,9 +133,7 @@ namespace XamlFormatter
 
         private static string Space(int spaces)
         {
-            var str = new StringBuilder(spaces);
-            str.Append(char.Parse(" "), spaces);
-            return str.ToString();
+            return string.Join(string.Empty, Enumerable.Repeat(" ", spaces));
         }
 
         private void CheckForUsages(string xaml)
